@@ -1,6 +1,7 @@
 import kotlin.random.Random
 
 fun main() {
+
     //Ejercicio 1
     for (numero in Ejercicio1(11).array){
         print("$numero, ")
