@@ -1,5 +1,4 @@
-open class Ejercicio1 (var tamaño : Int) {
-    companion object Singleton : Ejercicio1(11) {
+class Ejercicio1 (var tamaño : Int) {
         val array = Array(tamaño){it * 7}
-    }
+
 }
