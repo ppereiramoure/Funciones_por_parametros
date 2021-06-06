@@ -1,3 +1,5 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+fun main() {
+    for (numero in Ejercicio1.array){
+        print("$numero, ")
+    }
 }
